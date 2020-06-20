@@ -1,0 +1,129 @@
+body{
+
+  background-image:url(file:///C:/Users/USER/Desktop/AIUB.jpeg);
+  background-size:100%;
+}
+header{
+  padding: 3px;  /*J jaigha te main likha gula thake oitar space*/
+  height: 30%;  /*Height of the header*/
+}
+h1{
+  text-transform: uppercase; /*All in capital letter*/
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-align:center;
+  color:#F8F9F9;
+  font-size: 230%;
+}
+nav{
+  text-align:center;
+  padding:10px;
+  height: 50%;
+}
+
+nav a{
+  display:inline-block;
+  width: 15%;
+  padding:8px;
+  border-radius: 10px;
+  margin: 20px; /*Space between two bloc*/
+  color:#000000;
+  background-color:#d0b8b85e;
+  font-weight: bold;
+  text-decoration: None;
+  opacity: .5; /*After pointing the mouse the background colours visibleness*/
+  font-family: "Times New Roman", Times, serif;
+  transition: 1s ease;
+}
+.active {    /* j page a active asi oita bujar jonno*/
+  opacity: 1;
+  background-color: #ffffffff;
+  font-color: 000000;
+}
+nav a:hover{  /* j kono option a nila oita hov kore uthba*/
+  background-color:#ffffff;
+  color: #000000;
+}
+h2{
+  color:#000000;
+  font-weight: bold;
+}
+ p{
+  font-weight: bold;
+  color: white;
+  opacity: 100%;
+ }
+main{
+  display:inline-block;
+  padding:0px;
+}
+.left{
+  width: 20%;
+  padding-bottom: 10px; /* pic er nicher space*/
+  float: left; /*kon side a hobe oita*/
+  border-right: 40px;
+  background-color:#595600e0;
+  height:auto;
+  font-weight: bold;
+  background-color:inherit;
+}
+.right{
+  width: 75%;
+  padding:20px;
+  float: right;
+  
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+}
+aside img{
+  width: 75%; /*width of images*/
+  display:block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px #000000;
+  transition: 1s ease;/*image tah boro hoiya ashar tym 1s */
+}
+/* modifications for Week 4  */
+aside img:hover{
+ border-radius: 20px;
+ width: 100%;
+ height: 100%;
+}
+table {
+    margin: 0px 0px;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 3px;
+}
+th{
+  color: #ffffffff;
+  border-radius: 2px;
+  background-color:#47650c;
+  border-bottom: solid 4px #738a1a;
+  border-radius: 2px 2px 0px 0px;
+}
+td{
+   background-color:white;
+   opacity:0.8;  /*brightness of the text in table*/
+   padding: 0px 40px 0px 40px;
+}
+th:first-child{
+  text-align: left;
+  padding: 0px 30px 0px 0px;
+}
+
+td:first-child {
+  text-align: left;
+  padding: 0px 30px 0px 0px;
+}
+ table tr:hover{
+  color:red;
+  transition: 1s;
+  opacity: 1;
+  font-weight: bold;
+  text-shadow: 1px 1px #ef1919;
+
+}
